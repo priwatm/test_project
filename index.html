@@ -1,79 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet">
+    <script src="/main.js"></script>
 </head>
 
 <body>
-    <div class="container">
+    <div class="wrape">
         <div class="nav">
-            <div class="nav_header">
-                <div class="logo">
-                    <div class="loco_container">
-                        <h1 class="h1_text h1_border">
-                            <div class="word">Сияние</div>
-                        </h1>
-                        <p class="top_view"><span class="p_text">Декор центр</span></p>
-                        <div class="figure_text"></div>
-                    </div>
-
-                </div>
-                <div class="utp_titel">
-                    Интернет-магазин отделочных<br>
-                    материалов и дизайна.
-                </div>
-            </div>
-            <div class="nav_list_group">
-                <div class="nav_top_container">
-                    <ul class="nav_top">
-                        <li class="nav_top_item"><a href="#" class="nav_top_item_titel">каталог товары</a></li>
-                        <li class="nav_top_item"><a href="#" class="nav_top_item_titel">новости и акции <span class="badge">1</span></a></li>
-                        <li class="nav_top_item"><a href="#" class="nav_top_item_titel">наши услуги</a></li>
-                        <li class="nav_top_item"><a href="#" class="nav_top_item_titel">портфолмо</a></li>
-                        <li class="nav_top_item"><a href="#" class="nav_top_item_titel">блог</a></li>
-                        <li class="nav_top_item"><a href="#" class="nav_top_item_titel">контакты</a></li>
-                    </ul>
-                </div>
-
-
-                <ul class="nav_back">
-                    <li class="nav_back_item"><a href="" class="nav_back_item_titel">О компании</a></li>
-                    <li class="nav_back_item"><a href="" class="nav_back_item_titel">Отзывы о нас</a></li>
-                    <li class="nav_back_item"><a href="" class="nav_back_item_titel">Доставка и оплата</a></li>
-                    <li class="nav_back_item"><a href="" class="nav_back_item_titel">Дизайнеры</a></li>
-                    <li class=" none"><a href="">Контакты</a></li>
-                </ul>
-                <ul class="phone">
-                    <li class="phone_number"><a href="Tel:+7-4822-64-80-80" class="phone_number_titel">+7 (4822) 648-080</a></li>
-                    <li class=""> <a class="call_back">Заказать звонок</a></li>
-                </ul>
-            </div>
+            <img src="/img/logo.png" alt="logo" class="logo">
+            <button class="container" onclick="drop()"></button>
+        </div>
+        <div id="dropdown" class="dropdown-content">
+            <ul class="dropdown_container">
+                <li> <a href="#"><span class="font_drop active_drop">Главная</span></a>
+                </li>
+                <li> <a href="#"><span class="font_drop">Страница 1</span></a>
+                </li>
+                <li> <a href="#"><span class="font_drop">Страница 2</span></a>
+                </li>
+                <li> <a href="#"><span class="font_drop">Страница 3</span></a>
+                </li>
+            </ul>
         </div>
         <div class="main">
-            <div class="main_conteiner">
-
-                <div class="informatiom_main_conteiner">
-                   <div class="baground_main_titel">
-                    </div>
-                    <div class="main_titel">
-                        <h2>ДЕКОРОТАВНЫЕ ПОКРЫТИЯ</h2>
-                        <p>от лучших производителей</p>
-                    </div>
-                    
-                </div>
-                <button class="button_go">Подробнее<span class="baged_btn"></span></button>
-                <div class="point_container">
-                    <span class="point_middel"></span>
-                    <span></span>
-                    <span class="point_middel"></span>
-                    <span class="point_middel"></span>
-                </div>
-
-            </div>
+            <img src="/img/monitor.png" alt="monitor" class="monitor"> .
+            <p class="font">перейдите в раздел<br>администрирования</p>
+            <div class="button">Авторизация</div>
         </div>
     </div>
 </body>
