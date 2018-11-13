@@ -3,7 +3,7 @@ function drop() {
 }
 
 window.onclick = function (event) {
-    if (!event.target.matches('.container')) {
+    if (!event.target.matches('.btndrop')) {
 
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
