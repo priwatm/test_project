@@ -1,37 +1,41 @@
-<!DOCTYPE html>
 <html lang="ru">
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Test_project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet">
+    <link href="https:h//fonts.googleapis.com/css?family=Roboto:500,700" rel="stylesheet">
     <script src="/main.js"></script>
 </head>
 
 <body>
     <div class="wrape">
         <div class="nav">
-            <img src="/img/logo.png" alt="logo" class="logo">
-            <button class="btndrop" onclick="drop()"></button>
-        </div>
-        <div id="dropdown" class="dropdown-content">
-            <ul class="dropdown_container">
-                <li> <a href="#"><span class="font_drop active_drop">Главная</span></a>
-                </li>
-                <li> <a href="#"><span class="font_drop">Страница 1</span></a>
-                </li>
-                <li> <a href="#"><span class="font_drop">Страница 2</span></a>
-                </li>
-                <li> <a href="#"><span class="font_drop">Страница 3</span></a>
-                </li>
-            </ul>
+            <div class="nav_content">
+                <img src="/img/logo.png" alt="logo" class="logo">
+                <button class="btndrop" onclick="drop()"></button>
+            </div>
+
+            <div id="dropdown" class="dropdown-content">
+                <ul class="dropdown_container">
+                    <li> <a href="#"><span class="font_drop active_drop">Главная</span></a>
+                    </li>
+                    <li> <a href="#"><span class="font_drop">Страница 1</span></a>
+                    </li>
+                    <li> <a href="#"><span class="font_drop">Страница 2</span></a>
+                    </li>
+                    <li> <a href="#"><span class="font_drop reset">Страница 3</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="main">
-            <img src="/img/monitor.png" alt="monitor" class="monitor"> .
-            <p class="font">перейдите в раздел<br>администрирования</p>
-            <div class="button">Авторизация</div>
+            <img src="/img/monitor.png" alt="monitor" class="monitor">
+            <div class="personal_content">
+                <p class="font">перейдите в раздел<br>администрирования</p>
+                <div class="button">Авторизация</div>
+            </div>
         </div>
     </div>
 </body>
